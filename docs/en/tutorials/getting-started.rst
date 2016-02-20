@@ -616,7 +616,7 @@ domain model to match the requirements:
         }
     }
 
-Whenever an entity is recreated from the database, an Collection
+Whenever an entity is recreated from the database, a Collection
 implementation of the type Doctrine is injected into your entity
 instead of an array. Compared to the ArrayCollection this
 implementation helps the Doctrine ORM understand the changes that
